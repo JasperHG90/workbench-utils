@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "{{cookiecutter.repo_name}}"
+name = "workbench_utils"
 version = "0.1.0"
-description = '{{ cookiecutter.description }}'
-authors = ["{{ cookiecutter.author_name }} <{{cookiecutter.author_email}}>"]
-maintainers = ["{{ cookiecutter.author_name }} <{{cookiecutter.author_email}}>"]
-repository = '{% if cookiecutter.github_url != 'none' %}{{cookiecutter.github_url}}{% else %}'your-gh-repo-url'{% endif %}'
-license = '{% if cookiecutter.open_source_license == 'MIT' %}MIT{% elif cookiecutter.open_source_license == 'BSD-3-Clause' %}BSD-3{% endif %}'
+description = 'Utility functions for workbench projects'
+authors = ["Jasper Ginn <jasperginn@gmail.com>"]
+maintainers = ["Jasper Ginn <jasperginn@gmail.com>"]
+repository = "https://github.com/JasperHG90/workbench-utils"
+license = "MIT"
 packages = [
-    {include = "{{cookiecutter.module_name}}"}
+    {include = "workbench_utils"}
 ]
 
 [tool.poetry.dependencies]

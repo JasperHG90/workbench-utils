@@ -1,4 +1,4 @@
-{{cookiecutter.project_name}}
+Workbench-utils
 ==============================
 
-{{cookiecutter.description}}
+Utility functions for workbench projects
